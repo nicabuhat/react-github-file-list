@@ -1,0 +1,37 @@
+:root {
+    box-sizing: border-box;
+}
+
+.fileList {
+    width: 80vw;
+    margin: 20px auto;
+}
+
+.fileListItem {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(118, 118, 118);
+    padding: 5px;
+}
+
+.fileListItem:not(:first-child) {
+    border-top: none;
+}
+
+.fileListItem__nameGroup {
+    width: 20%;
+}
+
+.fileListItem__commit {
+    width: 60%;
+}
+
+.fileListItem__time {
+    width: 20%;
+    margin-left: auto;
+    text-align: right;
+}
+
+.fileListItem__icon {
+    margin-right: 5px;
+}
